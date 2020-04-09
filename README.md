@@ -1,4 +1,4 @@
-# Theorie-de-Codage_et_Information
+# Theorie-de-Codage-et-Information
 Des methodes pour faire des calculs dans ce qui rentre en domaine de Theorie de Codage et d'Informaton
 
 # Codage Source 
