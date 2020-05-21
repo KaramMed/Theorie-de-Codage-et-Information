@@ -33,3 +33,40 @@ capacite_correction : prends une liste de mots de codes en String , et renvoie l
 
 capacité_detection : prends une liste de mots de codes en String , et renvoie le maximum d'erreurs qu'on peut detecter
 
+-----------------------------------------------------------------------------------------------------------------------------
+
+# Coding-and-Information-Theory
+Methods for making calculations in what falls within the domain of Coding Theory and Informaton
+
+# Source Coding ( Compression )
+
+setdit: allows you to define your alphabet dictionary as text, otherwise the default one is used
+
+Entropy: take a list of probabilities, and return the entropy (this is the average information per message)
+
+analyze_frequentiel: take a text, and return a Map containing for each symbol / letter its probability of appearance
+
+longueure_moyenne : take a set of binary code words, and return their average length
+
+incertitude : take a letter / symbol and return its uncertainty (the amount of information gained by receiving this letter according to the dictionary)
+
+efficacite : take a list of code words and return its efficiency (entropy / average length, between 0 and 1)
+
+# Channel coding
+
+distance_Hamming: take two binary code words in String format and return the Hamming distance between them
+
+poids_Hamming : take a binary codeword in String format and return its Hamming weight
+
+distance_minimal : take a list of code words in String, and return their minimum distances (this is the minimum Hamming distance between each 2 code words)
+
+longueur_code : take a list of code words in String, and return their lengths (this is a block code, ie all code words are the same size)
+
+dimention_code: take a list of code words in String, and return its size
+
+taux_code: take a list of code words in String, and return the rate of code (this is the dimension of the code divided by the length of the code)
+
+capacite_correction: take a list of code words in String, and return the maximum number of errors it can correct
+
+capacité_detection : take a list of code words in String, and return the maximum number of errors that can be detected
+
